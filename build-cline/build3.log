@@ -1,0 +1,313 @@
+g++ -c -pipe -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I../../LocalSendGUI -I. -I/home/user/Qt5.12.8/5.12.8/gcc_64/include -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtGui -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore -I. -isystem /usr/include/libdrm -I. -I/home/user/Qt5.12.8/5.12.8/gcc_64/mkspecs/linux-g++ -o main.o ../main.cpp
+g++ -c -pipe -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I../../LocalSendGUI -I. -I/home/user/Qt5.12.8/5.12.8/gcc_64/include -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtGui -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore -I. -isystem /usr/include/libdrm -I. -I/home/user/Qt5.12.8/5.12.8/gcc_64/mkspecs/linux-g++ -o mainwindow.o ../mainwindow.cpp
+/home/user/Qt5.12.8/5.12.8/gcc_64/bin/moc -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --include /data/QtProjects/LocalSendGUI/build-cline/moc_predefs.h -I/home/user/Qt5.12.8/5.12.8/gcc_64/mkspecs/linux-g++ -I/data/QtProjects/LocalSendGUI -I/home/user/Qt5.12.8/5.12.8/gcc_64/include -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtGui -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../mainwindow.h -o moc_mainwindow.cpp
+g++ -c -pipe -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I../../LocalSendGUI -I. -I/home/user/Qt5.12.8/5.12.8/gcc_64/include -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtGui -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork -I/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore -I. -isystem /usr/include/libdrm -I. -I/home/user/Qt5.12.8/5.12.8/gcc_64/mkspecs/linux-g++ -o moc_mainwindow.o moc_mainwindow.cpp
+In file included from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qlocale.h:43,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qtextstream.h:46,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qdebug.h:49,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork/qabstractsocket.h:47,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork/qtcpsocket.h:44,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork/qsslsocket.h:48,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork/qsslconfiguration.h:62,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork/QSslConfiguration:1,
+                 from ../mainwindow.h:8,
+                 from ../main.cpp:1:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qvariant.h: In constructor ‘QVariant::QVariant(QVariant&&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qvariant.h:273:25: warning: implicitly-declared ‘QVariant::Private& QVariant::Private::operator=(const QVariant::Private&)’ is deprecated [-Wdeprecated-copy]
+  273 |     { other.d = Private(); }
+      |                         ^
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qvariant.h:399:16: note: because ‘QVariant::Private’ has user-provided ‘QVariant::Private::Private(const QVariant::Private&)’
+  399 |         inline Private(const Private &other) Q_DECL_NOTHROW
+      |                ^~~~~~~
+In file included from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qlocale.h:43,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qtextstream.h:46,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qdebug.h:49,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork/qabstractsocket.h:47,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork/qtcpsocket.h:44,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork/qsslsocket.h:48,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork/qsslconfiguration.h:62,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork/QSslConfiguration:1,
+                 from ../mainwindow.h:8,
+                 from ../mainwindow.cpp:1:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qvariant.h: In constructor ‘QVariant::QVariant(QVariant&&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qvariant.h:273:25: warning: implicitly-declared ‘QVariant::Private& QVariant::Private::operator=(const QVariant::Private&)’ is deprecated [-Wdeprecated-copy]
+  273 |     { other.d = Private(); }
+      |                         ^
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qvariant.h:399:16: note: because ‘QVariant::Private’ has user-provided ‘QVariant::Private::Private(const QVariant::Private&)’
+  399 |         inline Private(const Private &other) Q_DECL_NOTHROW
+      |                ^~~~~~~
+In file included from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qlocale.h:43,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qtextstream.h:46,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qdebug.h:49,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork/qabstractsocket.h:47,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork/qtcpsocket.h:44,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork/qsslsocket.h:48,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork/qsslconfiguration.h:62,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtNetwork/QSslConfiguration:1,
+                 from ../mainwindow.h:8,
+                 from moc_mainwindow.cpp:9:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qvariant.h: In constructor ‘QVariant::QVariant(QVariant&&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qvariant.h:273:25: warning: implicitly-declared ‘QVariant::Private& QVariant::Private::operator=(const QVariant::Private&)’ is deprecated [-Wdeprecated-copy]
+  273 |     { other.d = Private(); }
+      |                         ^
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qvariant.h:399:16: note: because ‘QVariant::Private’ has user-provided ‘QVariant::Private::Private(const QVariant::Private&)’
+  399 |         inline Private(const Private &other) Q_DECL_NOTHROW
+      |                ^~~~~~~
+In file included from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qabstractitemdelegate.h:45,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qabstractitemview.h:47,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qlistview.h:44,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qlistwidget.h:44,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/QListWidget:1,
+                 from ../mainwindow.cpp:24:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionFocusRect::QStyleOptionFocusRect(const QStyleOptionFocusRect&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:120:103: warning: implicitly-declared ‘QStyleOptionFocusRect& QStyleOptionFocusRect::operator=(const QStyleOptionFocusRect&)’ is deprecated [-Wdeprecated-copy]
+  120 |     QStyleOptionFocusRect(const QStyleOptionFocusRect &other) : QStyleOption(Version, Type) { *this = other; }
+      |                                                                                                       ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:120:5: note: because ‘QStyleOptionFocusRect’ has user-provided ‘QStyleOptionFocusRect::QStyleOptionFocusRect(const QStyleOptionFocusRect&)’
+  120 |     QStyleOptionFocusRect(const QStyleOptionFocusRect &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionFrame::QStyleOptionFrame(const QStyleOptionFrame&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:144:95: warning: implicitly-declared ‘QStyleOptionFrame& QStyleOptionFrame::operator=(const QStyleOptionFrame&)’ is deprecated [-Wdeprecated-copy]
+  144 |     QStyleOptionFrame(const QStyleOptionFrame &other) : QStyleOption(Version, Type) { *this = other; }
+      |                                                                                               ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:144:5: note: because ‘QStyleOptionFrame’ has user-provided ‘QStyleOptionFrame::QStyleOptionFrame(const QStyleOptionFrame&)’
+  144 |     QStyleOptionFrame(const QStyleOptionFrame &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionTabWidgetFrame::QStyleOptionTabWidgetFrame(const QStyleOptionTabWidgetFrame&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:173:49: warning: implicitly-declared ‘QStyleOptionTabWidgetFrame& QStyleOptionTabWidgetFrame::operator=(const QStyleOptionTabWidgetFrame&)’ is deprecated [-Wdeprecated-copy]
+  173 |         : QStyleOption(Version, Type) { *this = other; }
+      |                                                 ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:172:12: note: because ‘QStyleOptionTabWidgetFrame’ has user-provided ‘QStyleOptionTabWidgetFrame::QStyleOptionTabWidgetFrame(const QStyleOptionTabWidgetFrame&)’
+  172 |     inline QStyleOptionTabWidgetFrame(const QStyleOptionTabWidgetFrame &other)
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionTabBarBase::QStyleOptionTabBarBase(const QStyleOptionTabBarBase&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:196:105: warning: implicitly-declared ‘QStyleOptionTabBarBase& QStyleOptionTabBarBase::operator=(const QStyleOptionTabBarBase&)’ is deprecated [-Wdeprecated-copy]
+  196 |     QStyleOptionTabBarBase(const QStyleOptionTabBarBase &other) : QStyleOption(Version, Type) { *this = other; }
+      |                                                                                                         ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:196:5: note: because ‘QStyleOptionTabBarBase’ has user-provided ‘QStyleOptionTabBarBase::QStyleOptionTabBarBase(const QStyleOptionTabBarBase&)’
+  196 |     QStyleOptionTabBarBase(const QStyleOptionTabBarBase &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionHeader::QStyleOptionHeader(const QStyleOptionHeader&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:227:97: warning: implicitly-declared ‘QStyleOptionHeader& QStyleOptionHeader::operator=(const QStyleOptionHeader&)’ is deprecated [-Wdeprecated-copy]
+  227 |     QStyleOptionHeader(const QStyleOptionHeader &other) : QStyleOption(Version, Type) { *this = other; }
+      |                                                                                                 ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:227:5: note: because ‘QStyleOptionHeader’ has user-provided ‘QStyleOptionHeader::QStyleOptionHeader(const QStyleOptionHeader&)’
+  227 |     QStyleOptionHeader(const QStyleOptionHeader &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionButton::QStyleOptionButton(const QStyleOptionButton&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:249:97: warning: implicitly-declared ‘QStyleOptionButton& QStyleOptionButton::operator=(const QStyleOptionButton&)’ is deprecated [-Wdeprecated-copy]
+  249 |     QStyleOptionButton(const QStyleOptionButton &other) : QStyleOption(Version, Type) { *this = other; }
+      |                                                                                                 ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:249:5: note: because ‘QStyleOptionButton’ has user-provided ‘QStyleOptionButton::QStyleOptionButton(const QStyleOptionButton&)’
+  249 |     QStyleOptionButton(const QStyleOptionButton &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionTab::QStyleOptionTab(const QStyleOptionTab&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:286:91: warning: implicitly-declared ‘QStyleOptionTab& QStyleOptionTab::operator=(const QStyleOptionTab&)’ is deprecated [-Wdeprecated-copy]
+  286 |     QStyleOptionTab(const QStyleOptionTab &other) : QStyleOption(Version, Type) { *this = other; }
+      |                                                                                           ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:286:5: note: because ‘QStyleOptionTab’ has user-provided ‘QStyleOptionTab::QStyleOptionTab(const QStyleOptionTab&)’
+  286 |     QStyleOptionTab(const QStyleOptionTab &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionToolBar::QStyleOptionToolBar(const QStyleOptionToolBar&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:316:99: warning: implicitly-declared ‘QStyleOptionToolBar& QStyleOptionToolBar::operator=(const QStyleOptionToolBar&)’ is deprecated [-Wdeprecated-copy]
+  316 |     QStyleOptionToolBar(const QStyleOptionToolBar &other) : QStyleOption(Version, Type) { *this = other; }
+      |                                                                                                   ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:316:5: note: because ‘QStyleOptionToolBar’ has user-provided ‘QStyleOptionToolBar::QStyleOptionToolBar(const QStyleOptionToolBar&)’
+  316 |     QStyleOptionToolBar(const QStyleOptionToolBar &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionProgressBar::QStyleOptionProgressBar(const QStyleOptionProgressBar&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:343:107: warning: implicitly-declared ‘QStyleOptionProgressBar& QStyleOptionProgressBar::operator=(const QStyleOptionProgressBar&)’ is deprecated [-Wdeprecated-copy]
+  343 |     QStyleOptionProgressBar(const QStyleOptionProgressBar &other) : QStyleOption(Version, Type) { *this = other; }
+      |                                                                                                           ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:343:5: note: because ‘QStyleOptionProgressBar’ has user-provided ‘QStyleOptionProgressBar::QStyleOptionProgressBar(const QStyleOptionProgressBar&)’
+  343 |     QStyleOptionProgressBar(const QStyleOptionProgressBar &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionMenuItem::QStyleOptionMenuItem(const QStyleOptionMenuItem&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:373:101: warning: implicitly-declared ‘QStyleOptionMenuItem& QStyleOptionMenuItem::operator=(const QStyleOptionMenuItem&)’ is deprecated [-Wdeprecated-copy]
+  373 |     QStyleOptionMenuItem(const QStyleOptionMenuItem &other) : QStyleOption(Version, Type) { *this = other; }
+      |                                                                                                     ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:373:5: note: because ‘QStyleOptionMenuItem’ has user-provided ‘QStyleOptionMenuItem::QStyleOptionMenuItem(const QStyleOptionMenuItem&)’
+  373 |     QStyleOptionMenuItem(const QStyleOptionMenuItem &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionDockWidget::QStyleOptionDockWidget(const QStyleOptionDockWidget&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:392:105: warning: implicitly-declared ‘QStyleOptionDockWidget& QStyleOptionDockWidget::operator=(const QStyleOptionDockWidget&)’ is deprecated [-Wdeprecated-copy]
+  392 |     QStyleOptionDockWidget(const QStyleOptionDockWidget &other) : QStyleOption(Version, Type) { *this = other; }
+      |                                                                                                         ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:392:5: note: because ‘QStyleOptionDockWidget’ has user-provided ‘QStyleOptionDockWidget::QStyleOptionDockWidget(const QStyleOptionDockWidget&)’
+  392 |     QStyleOptionDockWidget(const QStyleOptionDockWidget &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionViewItem::QStyleOptionViewItem(const QStyleOptionViewItem&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:443:101: warning: implicitly-declared ‘QStyleOptionViewItem& QStyleOptionViewItem::operator=(const QStyleOptionViewItem&)’ is deprecated [-Wdeprecated-copy]
+  443 |     QStyleOptionViewItem(const QStyleOptionViewItem &other) : QStyleOption(Version, Type) { *this = other; }
+      |                                                                                                     ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:443:5: note: because ‘QStyleOptionViewItem’ has user-provided ‘QStyleOptionViewItem::QStyleOptionViewItem(const QStyleOptionViewItem&)’
+  443 |     QStyleOptionViewItem(const QStyleOptionViewItem &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionToolBox::QStyleOptionToolBox(const QStyleOptionToolBox&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:473:99: warning: implicitly-declared ‘QStyleOptionToolBox& QStyleOptionToolBox::operator=(const QStyleOptionToolBox&)’ is deprecated [-Wdeprecated-copy]
+  473 |     QStyleOptionToolBox(const QStyleOptionToolBox &other) : QStyleOption(Version, Type) { *this = other; }
+      |                                                                                                   ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:473:5: note: because ‘QStyleOptionToolBox’ has user-provided ‘QStyleOptionToolBox::QStyleOptionToolBox(const QStyleOptionToolBox&)’
+  473 |     QStyleOptionToolBox(const QStyleOptionToolBox &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionRubberBand::QStyleOptionRubberBand(const QStyleOptionRubberBand&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:492:105: warning: implicitly-declared ‘QStyleOptionRubberBand& QStyleOptionRubberBand::operator=(const QStyleOptionRubberBand&)’ is deprecated [-Wdeprecated-copy]
+  492 |     QStyleOptionRubberBand(const QStyleOptionRubberBand &other) : QStyleOption(Version, Type) { *this = other; }
+      |                                                                                                         ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:492:5: note: because ‘QStyleOptionRubberBand’ has user-provided ‘QStyleOptionRubberBand::QStyleOptionRubberBand(const QStyleOptionRubberBand&)’
+  492 |     QStyleOptionRubberBand(const QStyleOptionRubberBand &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionComplex::QStyleOptionComplex(const QStyleOptionComplex&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:510:99: warning: implicitly-declared ‘QStyleOptionComplex& QStyleOptionComplex::operator=(const QStyleOptionComplex&)’ is deprecated [-Wdeprecated-copy]
+  510 |     QStyleOptionComplex(const QStyleOptionComplex &other) : QStyleOption(Version, Type) { *this = other; }
+      |                                                                                                   ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:510:5: note: because ‘QStyleOptionComplex’ has user-provided ‘QStyleOptionComplex::QStyleOptionComplex(const QStyleOptionComplex&)’
+  510 |     QStyleOptionComplex(const QStyleOptionComplex &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionSlider::QStyleOptionSlider(const QStyleOptionSlider&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:534:104: warning: implicitly-declared ‘QStyleOptionSlider& QStyleOptionSlider::operator=(const QStyleOptionSlider&)’ is deprecated [-Wdeprecated-copy]
+  534 |     QStyleOptionSlider(const QStyleOptionSlider &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |                                                                                                        ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:534:5: note: because ‘QStyleOptionSlider’ has user-provided ‘QStyleOptionSlider::QStyleOptionSlider(const QStyleOptionSlider&)’
+  534 |     QStyleOptionSlider(const QStyleOptionSlider &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In member function ‘QStyleOptionSlider& QStyleOptionSlider::operator=(const QStyleOptionSlider&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:514:24: warning: implicitly-declared ‘QStyleOptionComplex& QStyleOptionComplex::operator=(const QStyleOptionComplex&)’ is deprecated [-Wdeprecated-copy]
+  514 | class Q_WIDGETS_EXPORT QStyleOptionSlider : public QStyleOptionComplex
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:510:5: note: because ‘QStyleOptionComplex’ has user-provided ‘QStyleOptionComplex::QStyleOptionComplex(const QStyleOptionComplex&)’
+  510 |     QStyleOptionComplex(const QStyleOptionComplex &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionSlider::QStyleOptionSlider(const QStyleOptionSlider&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:534:104: note: synthesized method ‘QStyleOptionSlider& QStyleOptionSlider::operator=(const QStyleOptionSlider&)’ first required here
+  534 |     QStyleOptionSlider(const QStyleOptionSlider &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |                                                                                                        ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionSpinBox::QStyleOptionSpinBox(const QStyleOptionSpinBox&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:553:106: warning: implicitly-declared ‘QStyleOptionSpinBox& QStyleOptionSpinBox::operator=(const QStyleOptionSpinBox&)’ is deprecated [-Wdeprecated-copy]
+  553 |     QStyleOptionSpinBox(const QStyleOptionSpinBox &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |                                                                                                          ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:553:5: note: because ‘QStyleOptionSpinBox’ has user-provided ‘QStyleOptionSpinBox::QStyleOptionSpinBox(const QStyleOptionSpinBox&)’
+  553 |     QStyleOptionSpinBox(const QStyleOptionSpinBox &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In member function ‘QStyleOptionSpinBox& QStyleOptionSpinBox::operator=(const QStyleOptionSpinBox&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:542:24: warning: implicitly-declared ‘QStyleOptionComplex& QStyleOptionComplex::operator=(const QStyleOptionComplex&)’ is deprecated [-Wdeprecated-copy]
+  542 | class Q_WIDGETS_EXPORT QStyleOptionSpinBox : public QStyleOptionComplex
+      |                        ^~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:510:5: note: because ‘QStyleOptionComplex’ has user-provided ‘QStyleOptionComplex::QStyleOptionComplex(const QStyleOptionComplex&)’
+  510 |     QStyleOptionComplex(const QStyleOptionComplex &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionSpinBox::QStyleOptionSpinBox(const QStyleOptionSpinBox&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:553:106: note: synthesized method ‘QStyleOptionSpinBox& QStyleOptionSpinBox::operator=(const QStyleOptionSpinBox&)’ first required here
+  553 |     QStyleOptionSpinBox(const QStyleOptionSpinBox &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |                                                                                                          ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionToolButton::QStyleOptionToolButton(const QStyleOptionToolButton&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:580:112: warning: implicitly-declared ‘QStyleOptionToolButton& QStyleOptionToolButton::operator=(const QStyleOptionToolButton&)’ is deprecated [-Wdeprecated-copy]
+  580 |     QStyleOptionToolButton(const QStyleOptionToolButton &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |                                                                                                                ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:580:5: note: because ‘QStyleOptionToolButton’ has user-provided ‘QStyleOptionToolButton::QStyleOptionToolButton(const QStyleOptionToolButton&)’
+  580 |     QStyleOptionToolButton(const QStyleOptionToolButton &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In member function ‘QStyleOptionToolButton& QStyleOptionToolButton::operator=(const QStyleOptionToolButton&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:560:24: warning: implicitly-declared ‘QStyleOptionComplex& QStyleOptionComplex::operator=(const QStyleOptionComplex&)’ is deprecated [-Wdeprecated-copy]
+  560 | class Q_WIDGETS_EXPORT QStyleOptionToolButton : public QStyleOptionComplex
+      |                        ^~~~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:510:5: note: because ‘QStyleOptionComplex’ has user-provided ‘QStyleOptionComplex::QStyleOptionComplex(const QStyleOptionComplex&)’
+  510 |     QStyleOptionComplex(const QStyleOptionComplex &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionToolButton::QStyleOptionToolButton(const QStyleOptionToolButton&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:580:112: note: synthesized method ‘QStyleOptionToolButton& QStyleOptionToolButton::operator=(const QStyleOptionToolButton&)’ first required here
+  580 |     QStyleOptionToolButton(const QStyleOptionToolButton &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |                                                                                                                ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionComboBox::QStyleOptionComboBox(const QStyleOptionComboBox&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:602:108: warning: implicitly-declared ‘QStyleOptionComboBox& QStyleOptionComboBox::operator=(const QStyleOptionComboBox&)’ is deprecated [-Wdeprecated-copy]
+  602 |     QStyleOptionComboBox(const QStyleOptionComboBox &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |                                                                                                            ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:602:5: note: because ‘QStyleOptionComboBox’ has user-provided ‘QStyleOptionComboBox::QStyleOptionComboBox(const QStyleOptionComboBox&)’
+  602 |     QStyleOptionComboBox(const QStyleOptionComboBox &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In member function ‘QStyleOptionComboBox& QStyleOptionComboBox::operator=(const QStyleOptionComboBox&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:588:24: warning: implicitly-declared ‘QStyleOptionComplex& QStyleOptionComplex::operator=(const QStyleOptionComplex&)’ is deprecated [-Wdeprecated-copy]
+  588 | class Q_WIDGETS_EXPORT QStyleOptionComboBox : public QStyleOptionComplex
+      |                        ^~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:510:5: note: because ‘QStyleOptionComplex’ has user-provided ‘QStyleOptionComplex::QStyleOptionComplex(const QStyleOptionComplex&)’
+  510 |     QStyleOptionComplex(const QStyleOptionComplex &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionComboBox::QStyleOptionComboBox(const QStyleOptionComboBox&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:602:108: note: synthesized method ‘QStyleOptionComboBox& QStyleOptionComboBox::operator=(const QStyleOptionComboBox&)’ first required here
+  602 |     QStyleOptionComboBox(const QStyleOptionComboBox &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |                                                                                                            ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionTitleBar::QStyleOptionTitleBar(const QStyleOptionTitleBar&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:620:108: warning: implicitly-declared ‘QStyleOptionTitleBar& QStyleOptionTitleBar::operator=(const QStyleOptionTitleBar&)’ is deprecated [-Wdeprecated-copy]
+  620 |     QStyleOptionTitleBar(const QStyleOptionTitleBar &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |                                                                                                            ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:620:5: note: because ‘QStyleOptionTitleBar’ has user-provided ‘QStyleOptionTitleBar::QStyleOptionTitleBar(const QStyleOptionTitleBar&)’
+  620 |     QStyleOptionTitleBar(const QStyleOptionTitleBar &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In member function ‘QStyleOptionTitleBar& QStyleOptionTitleBar::operator=(const QStyleOptionTitleBar&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:608:24: warning: implicitly-declared ‘QStyleOptionComplex& QStyleOptionComplex::operator=(const QStyleOptionComplex&)’ is deprecated [-Wdeprecated-copy]
+  608 | class Q_WIDGETS_EXPORT QStyleOptionTitleBar : public QStyleOptionComplex
+      |                        ^~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:510:5: note: because ‘QStyleOptionComplex’ has user-provided ‘QStyleOptionComplex::QStyleOptionComplex(const QStyleOptionComplex&)’
+  510 |     QStyleOptionComplex(const QStyleOptionComplex &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionTitleBar::QStyleOptionTitleBar(const QStyleOptionTitleBar&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:620:108: note: synthesized method ‘QStyleOptionTitleBar& QStyleOptionTitleBar::operator=(const QStyleOptionTitleBar&)’ first required here
+  620 |     QStyleOptionTitleBar(const QStyleOptionTitleBar &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |                                                                                                            ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionGroupBox::QStyleOptionGroupBox(const QStyleOptionGroupBox&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:640:108: warning: implicitly-declared ‘QStyleOptionGroupBox& QStyleOptionGroupBox::operator=(const QStyleOptionGroupBox&)’ is deprecated [-Wdeprecated-copy]
+  640 |     QStyleOptionGroupBox(const QStyleOptionGroupBox &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |                                                                                                            ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:640:5: note: because ‘QStyleOptionGroupBox’ has user-provided ‘QStyleOptionGroupBox::QStyleOptionGroupBox(const QStyleOptionGroupBox&)’
+  640 |     QStyleOptionGroupBox(const QStyleOptionGroupBox &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In member function ‘QStyleOptionGroupBox& QStyleOptionGroupBox::operator=(const QStyleOptionGroupBox&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:626:24: warning: implicitly-declared ‘QStyleOptionComplex& QStyleOptionComplex::operator=(const QStyleOptionComplex&)’ is deprecated [-Wdeprecated-copy]
+  626 | class Q_WIDGETS_EXPORT QStyleOptionGroupBox : public QStyleOptionComplex
+      |                        ^~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:510:5: note: because ‘QStyleOptionComplex’ has user-provided ‘QStyleOptionComplex::QStyleOptionComplex(const QStyleOptionComplex&)’
+  510 |     QStyleOptionComplex(const QStyleOptionComplex &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionGroupBox::QStyleOptionGroupBox(const QStyleOptionGroupBox&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:640:108: note: synthesized method ‘QStyleOptionGroupBox& QStyleOptionGroupBox::operator=(const QStyleOptionGroupBox&)’ first required here
+  640 |     QStyleOptionGroupBox(const QStyleOptionGroupBox &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |                                                                                                            ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionSizeGrip::QStyleOptionSizeGrip(const QStyleOptionSizeGrip&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:654:108: warning: implicitly-declared ‘QStyleOptionSizeGrip& QStyleOptionSizeGrip::operator=(const QStyleOptionSizeGrip&)’ is deprecated [-Wdeprecated-copy]
+  654 |     QStyleOptionSizeGrip(const QStyleOptionSizeGrip &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |                                                                                                            ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:654:5: note: because ‘QStyleOptionSizeGrip’ has user-provided ‘QStyleOptionSizeGrip::QStyleOptionSizeGrip(const QStyleOptionSizeGrip&)’
+  654 |     QStyleOptionSizeGrip(const QStyleOptionSizeGrip &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In member function ‘QStyleOptionSizeGrip& QStyleOptionSizeGrip::operator=(const QStyleOptionSizeGrip&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:645:24: warning: implicitly-declared ‘QStyleOptionComplex& QStyleOptionComplex::operator=(const QStyleOptionComplex&)’ is deprecated [-Wdeprecated-copy]
+  645 | class Q_WIDGETS_EXPORT QStyleOptionSizeGrip : public QStyleOptionComplex
+      |                        ^~~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:510:5: note: because ‘QStyleOptionComplex’ has user-provided ‘QStyleOptionComplex::QStyleOptionComplex(const QStyleOptionComplex&)’
+  510 |     QStyleOptionComplex(const QStyleOptionComplex &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionSizeGrip::QStyleOptionSizeGrip(const QStyleOptionSizeGrip&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:654:108: note: synthesized method ‘QStyleOptionSizeGrip& QStyleOptionSizeGrip::operator=(const QStyleOptionSizeGrip&)’ first required here
+  654 |     QStyleOptionSizeGrip(const QStyleOptionSizeGrip &other) : QStyleOptionComplex(Version, Type) { *this = other; }
+      |                                                                                                            ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h: In copy constructor ‘QStyleOptionGraphicsItem::QStyleOptionGraphicsItem(const QStyleOptionGraphicsItem&)’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:670:109: warning: implicitly-declared ‘QStyleOptionGraphicsItem& QStyleOptionGraphicsItem::operator=(const QStyleOptionGraphicsItem&)’ is deprecated [-Wdeprecated-copy]
+  670 |     QStyleOptionGraphicsItem(const QStyleOptionGraphicsItem &other) : QStyleOption(Version, Type) { *this = other; }
+      |                                                                                                             ^~~~~
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtWidgets/qstyleoption.h:670:5: note: because ‘QStyleOptionGraphicsItem’ has user-provided ‘QStyleOptionGraphicsItem::QStyleOptionGraphicsItem(const QStyleOptionGraphicsItem&)’
+  670 |     QStyleOptionGraphicsItem(const QStyleOptionGraphicsItem &other) : QStyleOption(Version, Type) { *this = other; }
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qhash.h:46,
+                 from /home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/QHash:1,
+                 from ../mainwindow.h:5,
+                 from ../mainwindow.cpp:1:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qlist.h: In instantiation of ‘QList<T>::iterator QList<T>::erase(QList<T>::iterator) [with T = QString]’:
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qlist.h:353:55:   required from ‘void QList<T>::removeFirst() [with T = QString]’
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qlist.h:565:29:   required from ‘T QList<T>::takeFirst() [with T = QString]’
+../mainwindow.cpp:831:51:   required from here
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qlist.h:536:12: warning: implicitly-declared ‘QList<QString>::iterator& QList<QString>::iterator::operator=(const QList<QString>::iterator&)’ is deprecated [-Wdeprecated-copy]
+  536 |         it = begin(); // implies detach()
+/home/user/Qt5.12.8/5.12.8/gcc_64/include/QtCore/qlist.h:239:16: note: because ‘QList<QString>::iterator’ has user-provided ‘QList<T>::iterator::iterator(const QList<T>::iterator&) [with T = QString]’
+  239 |         inline iterator(const iterator &o) Q_DECL_NOTHROW : i(o.i){}
+      |                ^~~~~~~~
+g++ -Wl,-O1 -Wl,-rpath,/home/user/Qt5.12.8/5.12.8/gcc_64/lib -o LocalSendGUI main.o mainwindow.o moc_mainwindow.o   /home/user/Qt5.12.8/5.12.8/gcc_64/lib/libQt5Widgets.so /home/user/Qt5.12.8/5.12.8/gcc_64/lib/libQt5Gui.so /home/user/Qt5.12.8/5.12.8/gcc_64/lib/libQt5Network.so /home/user/Qt5.12.8/5.12.8/gcc_64/lib/libQt5Core.so -lGL -lpthread   
